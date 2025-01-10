@@ -1,6 +1,6 @@
 Body{
     font-family: 'Fira Sans', sans-serif;
-    
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -47,7 +47,7 @@ Body{
     align-items: center;
     background-color: #c5e5d4;
     margin: 20px 160px 80px 160px;
-    padding: 115px 120px 80px 60px;
+    padding: 80px 60px 80px 60px;
     border-radius: 24px;
     
 }
@@ -65,4 +65,127 @@ Body{
 
 /* banner alignment start */
 
-/* Main body section-1 */
+/* Main body info-panel start */
+
+main{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.info-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.info-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* info-panel alignments */
+
+.info-title{
+    margin-bottom: 24px;
+}
+
+/* .info-panel{
+    margin: 80px 160px 128px 160px;
+} (note: Idk why but this margin according to the figma file breaks the size of the info panel making it smaller in size) */
+
+.info-panel{
+    margin: 80px 0 80px 0;
+}
+
+
+/* info-container panel and cards */
+
+/* card-color-style section */
+
+.card-bg-one{
+    background: rgba(84, 144, 245, 0.2);
+}
+.card-bg-two{
+    background: rgb(198, 228, 214);
+}
+.card-bg-three{
+    background-color: rgb(247, 235, 207);
+}
+
+.card-btn-one{
+    background: rgb(84, 144, 245);
+}
+.card-btn-two{
+    background: rgb(9, 161, 92);
+}
+.card-btn-three{
+    background: rgb(255, 194, 57);
+}
+
+
+
+/* card-color-style section */
+
+.info-con-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.info-con-des{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.info-con-btn{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+   
+    border-style: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+}
+
+.info-container-panel{
+    display: flex;
+    margin: 32px 0px;
+}
+
+.info-container{
+    margin: 32px 24px 32px 0;
+    padding: 32px 32px 43px 32px;
+    border-radius: 16px;
+}
+
+.info-container .info-con-title, .info-container .info-con-des {
+    margin: 24px 0px;
+}
+
+/* Quote-section */
+
+.quote-des{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.quote-by{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.quote-info{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+}
+
+.quote-section{
+    padding: 48px 24px;
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+}
