@@ -1,0 +1,68 @@
+Body{
+    font-family: 'Fira Sans', sans-serif;
+    
+    margin: 0 auto;
+}
+
+/* Color section */
+
+.G-color{
+    color: #006A50;
+}
+
+
+/* Start banner section */
+
+
+/* banner style section start */
+
+.banner-title{
+    font-size: 24px;
+    color: #0e0e0e7f;
+    font-weight: 500;
+}
+
+.banner-des{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.btn-primary{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #006A50;
+}
+
+.banner-img{
+    width: 475px;
+}
+
+/* banner style section end */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c5e5d4;
+    margin: 20px 160px 80px 160px;
+    padding: 115px 120px 80px 60px;
+    border-radius: 24px;
+    
+}
+
+.banner-content{
+    max-width: 622px;
+}
+
+
+.btn-primary{
+    padding: 17px 34px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+/* banner alignment start */
+
+/* Main body section-1 */
