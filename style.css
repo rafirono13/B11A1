@@ -49,6 +49,7 @@ Body{
     margin: 20px 160px 80px 160px;
     padding: 80px 60px 80px 60px;
     border-radius: 24px;
+    max-width: 1280px;
     
 }
 
@@ -61,6 +62,7 @@ Body{
     padding: 17px 34px;
     border-radius: 8px;
     border-style: none;
+    cursor: pointer;
 }
 
 /* banner alignment start */
@@ -96,6 +98,7 @@ main{
 
 .info-panel{
     margin: 80px 0 80px 0;
+    
 }
 
 
@@ -122,9 +125,6 @@ main{
 .card-btn-three{
     background: rgb(255, 194, 57);
 }
-
-
-
 /* card-color-style section */
 
 .info-con-title{
@@ -142,7 +142,7 @@ main{
     font-size: 16px;
     color: #ffffff;
     font-weight: 600;
-   
+    cursor: pointer;
     border-style: none;
     border-radius: 8px;
     padding: 11px 20px;
@@ -183,9 +183,171 @@ main{
 
 .quote-section{
     padding: 48px 24px;
-    background-image: url(assets/quote-bg.png);
-    background-repeat: no-repeat;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+    opacity: 0.95;
 }
+
+/* Main body info-panel end*/
+
+/* Main body Recent-news panel */
+
+.news-title{
+    font-size: 40px;
+    font-weight:bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.news-des{
+    margin: 24px 0 32px 0;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* news card section */
+
+.news-btn {
+    padding: 13px 26px;
+    border: none;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 600;
+    margin-top: auto;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+
+
+.news-card-image img{
+    /* width: 408px; */
+    border-radius: 24px;
+}
+
+.news-card-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+
+.channel-logo{
+    width: 135px;
+    margin: 12px 0 12px 0;
+}
+
+
+
+.news-time{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.news-text{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin: 12px 0 32px 0;
+}
+
+/* card alignment part */
+
+.news-section{
+    margin: 80px 0;
+}
+
+.news-cards{
+    padding: 48px;
+}
+
+.news-card{
+    display: flex;
+    gap: 32px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+.news-card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.news-card-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 0 0 16px 0;
+    line-height: 1.2;
+}
+
+.news-time {
+    display: flex;
+    gap: 24px;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* news-card-2 */
+
+
+.news-card.reverse {
+    
+    margin-top: 32px;  
+}
+
+.news-card-image {
+    flex: 0 0 408px; 
+}
+
+/* .news-card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+} */
+
+.news-cards {
+    padding: 48px;
+}
+
+.news-card {
+    display: flex;
+    gap: 32px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.news-card.reverse {
+    margin: 32px
+}
+
+.news-card-image {
+    flex: 0 0 408px;
+}
+
+.news-card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+
+
